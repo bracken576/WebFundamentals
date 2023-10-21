@@ -179,8 +179,8 @@
   height: 400px; 
   background-color: gold; 
   grid-column: 3;
-  grid-row: 3/4;
-  margin-top:-100%;
+  grid-row: 3;
+  margin-top:-114%;
   margin-left:-150%;
 } 
 .blue6 {
