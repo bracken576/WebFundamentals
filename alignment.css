@@ -1,0 +1,25 @@
+section {
+    width: 40%;
+    border: 1px solid;
+  }
+  .block2{
+    display: block;
+    margin: auto;
+  }
+  .block3{
+    display: block;
+    margin-left: auto;
+  }
+  .block1, .block2, .block3{
+    p:nth-of-type(1) {text-align:left;}
+    p:nth-of-type(2) {text-align:center;}
+    p:nth-of-type(3) {text-align:right;} 
+  }
+  .block4{
+    display: block;
+    margin: auto;
+    p:nth-of-type(1) {text-align:right;}
+    p:nth-of-type(2) {text-align:center;}
+    p:nth-of-type(3) {text-align:left;}
+    p::nth-of-type(4) {text-align:left;}
+  }

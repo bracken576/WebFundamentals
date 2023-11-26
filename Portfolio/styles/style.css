@@ -1,0 +1,96 @@
+body{
+    background-color: #dadada;
+    font-family: "Lora", "Helvetica", "Arial";
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #19535F;
+    font-family: "Kanit", "Helvetica", "Arial";
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #F5EDF0;
+    text-decoration: none;
+    padding: 10px 35px;
+}
+.logo{
+    width: 80px;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.home-grid h1{
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+}
+.home-grid h4{
+    padding-top:100px;
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+}
+.home-grid p{
+    padding-top:200px;
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+}
+.home-page{
+    img:nth-of-type(1) {grid-column:5/6;}
+    img:nth-of-type(2) {grid-column:6/7;}
+}
+footer{
+    background-color: #19535F;
+    color: #F5EDF0;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer a{
+    color: #F5EDF0;
+    text-decoration: none;
+}
+.datascience-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 50px 1fr 1fr;
+    grid-template-rows: 600px 1fr;
+}
+.datascience-grid h1{
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+}
+.datascience-grid h4{
+    padding-top:100px;
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+}
+.datascience-grid p{
+    padding-top:200px;
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+}
+.datascience1{
+    padding-top:-100px;
+    grid-column: 2/4;
+    grid-row: 2;
+}
+.datascience2{
+    grid-column: 5/7;
+    grid-row: 1;
+}
