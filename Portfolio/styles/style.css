@@ -96,10 +96,45 @@ footer a{
     grid-row: 1;
 }
 
+.programming-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+}
+.progamming-grid h1{
+    grid-column: 1/7;
+    grid-row:1;
+    text-align: center;
+}
+.programming-grid h4{
+    padding-top:275px;
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+}
+.programming-grid p{
+    padding-top:350px;
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+}
+.programming1{
+    padding-top:50px;
+    padding-left:30px;
+    grid-column: 4/6;
+    grid-row: 2;
+}
+.programming2{
+    padding-top:350px;
+    padding-left:30px;
+    grid-column: 4/6;
+    grid-row: 2;
+}
+
  /* Dropdown Button */
  .dropbtn {
     background-color:#19535F;
-    color: white;
+    color: #F5EDF0;
     padding: 10px 35px;
     font-size: 16px;
     border: none;
@@ -116,7 +151,7 @@ footer a{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #F5EDF0;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -132,10 +167,10 @@ footer a{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #F5EDF0;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {color: #19535F; background-color: #f1f1f1;} 
+  .dropdown:hover .dropbtn {color: #19535F; background-color: #F5EDF0;} 
